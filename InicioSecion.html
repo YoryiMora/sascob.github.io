@@ -1,0 +1,75 @@
+<html lang="es">
+    <head>
+        <title>Inicio de Seción</title>
+        <link rel="icon" type="image/jpg" href="img/Escudo.gif">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body style= "background-color: darkgray;">
+       
+        <footer style="background-color: cadetblue;">
+            
+            <br>
+
+            <div>
+                <footer class="Barra">
+                    <ul class="menu">
+                        <li><a href="principal.html">Inicio</a></li>
+                        <li><a href="formulario.html">Solicitud de Citas</a></li>
+                        <li><a href="denuncia.html">Comentarios Anonimos</a></li>
+                        <li><a href="informacion.html">Información</a></li>
+                        <li><a href="horario.html">Horarios</a></li>
+                    </ul>
+                </footer>
+            </div>
+
+            <br>
+
+        </footer>
+        <br>
+        
+        <form class="FormularioSecion" id="loginForm">
+
+            <h2>Inicio de Sesión</h2>
+
+            
+
+            <div class="NombreUsuario">
+                <label for="username">Nombre de Usuario:</label>
+                <br>
+                <br>
+                <br>
+                <select id="username" name="username" required>
+                    <option value="">Seleccionar</option>
+                    <option value="Alejandra">Alejandra Salas</option>
+                    <option value="Judith">Judith Quesada</option>
+                </select>
+            </div>
+            <div class="NombreUsuario">
+                <label for="password">Contraseña:</label>
+                <br>
+                <br>
+                <br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <p class="CentrarTitulo" style="color: red;" id="message"></p>
+
+            <input type="submit" value="Iniciar Sesión">
+
+        </form>
+        <br>
+
+
+        <p id="message"></p>
+
+        <script src="validar.js"></script>
+        
+        
+
+        <br>
+
+    </body>
+
+</html>
